@@ -1,0 +1,60 @@
+
+h2 {
+  margin: 0;
+  font-size: 16px;
+}
+
+
+ul {
+  margin: 0;
+  padding: 0 0 0 1.5em;
+}
+
+
+li {
+  margin: 1.5em 0;
+  padding: 0;
+}
+
+
+b {
+  margin-right: 3px;
+}
+
+
+.toolbar{
+  position: fixed;
+  top:0;
+  left:0;
+  height:50px;
+  margin-bottom:30px;
+  width:100%;
+  z-index: 9999;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-color: #da2727;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+
+.container {
+  display: flex;
+  min-height: 100%;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14px;
+  padding-top:25px;
+}
+
+
+.main-view{
+  flex-grow: 1;
+  padding: 3em;
+}
+
+
+
+.fc {
+  max-width: 1100px;
+  margin: 0 auto;
+}

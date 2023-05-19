@@ -1,0 +1,14 @@
+<div class="toolbar"></div>
+<div class='container'>
+<div class="toolbar"><h1 style="color:white">CALENDAR</h1></div>
+  <div class='main-view'>
+    <full-calendar  [options]='calendarOptions'>
+      <ng-template #eventContent let-arg>
+        <b>{{ arg.timeText }}</b>
+        <i>{{ arg.event.title }}</i>
+      </ng-template>
+    </full-calendar>
+  </div>
+
+
+</div>
